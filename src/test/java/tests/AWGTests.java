@@ -18,8 +18,12 @@ public class AWGTests extends TestBase {
             open("https://www.awg.ru/");
         });
         step(" Check Service", () -> {
+            $(".animate .main-slider__title").shouldHave(text("Увеличим продажи и конверсию с помощью ускорения сайта"));
             $(byText("Услуги")).click();
             $(".page-title__title").shouldHave(text("Услуги"));
+
+
+
         });
     }
 }

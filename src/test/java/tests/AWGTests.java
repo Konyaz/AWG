@@ -1,6 +1,7 @@
 package tests;
 
 
+import com.codeborne.selenide.commands.ShouldHave;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
@@ -17,8 +18,8 @@ public class AWGTests extends TestBase {
             open("https://www.awg.ru/");
         });
         step(" Check Service", () -> {
-
-
+            $(byText("Услуги")).click();
+            $(".page-title__title").shouldHave(text("Услуги"));
         });
     }
 }

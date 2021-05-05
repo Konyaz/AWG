@@ -10,8 +10,7 @@ import java.io.File;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selectors.byLinkText;
-import static com.codeborne.selenide.Selectors.byText;
+import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
@@ -38,19 +37,23 @@ public class AWGTests extends TestBase {
             $(".contacts-info__phone").shouldHave(text("+7 495 278-07-08"));
             $(".contacts-info__email").shouldHave(text("info@awg.ru"));
         });
+        step(" Check Clients", () -> {
+            $(byText("Клиенты")).click();
+            $(".clients__container").shouldHave(text("Желание понимать бизнес клиента, готовность развивать процессы в команде под его задачи, гибкая методология разработки и особое внимание к качеству менеджмента — базовые принципы работы с нашими заказчиками."));
+        });
+
         step(" Check Download", () -> {
             Configuration.downloadsFolder = "./downloads";
             $(".footer__download-link").download();
             FileUtils.deleteDirectory(new File("./downloads"));
         });
+
         step(" Check language", () -> {
             $(".header-menu__lang").click();
             $(".main-services__title_white").shouldHave(text("Popular services,"));
 
         });
-        step(" Check language", () -> {
-            $(".main-slider__title").shouldHave(text("Увеличим продажи и конверсию с помощью ускорения сайта"));
-        });
+
     }
 }
 

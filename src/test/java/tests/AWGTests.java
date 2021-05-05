@@ -1,8 +1,12 @@
 package tests;
 
 
+import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.commands.ShouldHave;
+import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.Test;
+
+import java.io.File;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byLinkText;
@@ -29,7 +33,9 @@ public class AWGTests extends TestBase {
             $(".services__text").shouldHave(text("Мы ускоряем развитие бизнеса наших клиентов и выводим его на новый уровень с помощью информационных технологий (ИТ). Исходя из целей и проблем бизнеса, мы погружаемся в детали и помогаем найти решения, дающие быстрые и максимально эффективные результаты."));
         });
         step(" Check Download", () -> {
+            Configuration.downloadsFolder = "./downloads";
             $(".footer__download-link").download();
+            FileUtils.deleteDirectory(new File("./downloads"));
         });
     }
 }

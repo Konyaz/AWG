@@ -18,3 +18,9 @@
 ![Allure](images/Allure1.png)
 ![Allure](images/Allure2.png)
 ![Allure](images/Allure3.png)
+
+### Video
+![Video](images/video.gif)
+
+### Jenkins
+https://jenkins.autotests.cloud/job/AWG/

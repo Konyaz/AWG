@@ -1,4 +1,4 @@
-## UI automation testing for https://dataart.com.ua/
+## UI automation testing for https://www.awg.ru
 
 #### *Quick project example with infrastructure: Selenide UI tests with Allure report, remote run on Selenoid and push notifications to Telegram*
 

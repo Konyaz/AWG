@@ -13,3 +13,8 @@
 ![Jenkins](images/icons/Jenkins.png)
 ![Selenoid](images/icons/Selenoid.png)
 ![Telegram](images/icons/Telegram.png)
+
+### Allure report
+![Allure](images/allure1.png)
+![Allure](images/allure2.png)
+![Allure](images/allure3.png)

@@ -20,7 +20,7 @@
 ![Allure](images/Allure3.png)
 
 ### Video
-![Video](images/video.gif)
+![Video](images/Video.gif)
 
 ### Jenkins
 https://jenkins.autotests.cloud/job/AWG/

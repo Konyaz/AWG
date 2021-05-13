@@ -15,6 +15,6 @@
 ![Telegram](images/icons/Telegram.png)
 
 ### Allure report
-![Allure](images/allure1.png)
-![Allure](images/allure2.png)
-![Allure](images/allure3.png)
+![Allure](images/Allure1.png)
+![Allure](images/Allure2.png)
+![Allure](images/Allure3.png)

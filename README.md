@@ -24,3 +24,6 @@
 
 ### Jenkins
 https://jenkins.autotests.cloud/job/AWG/
+
+### Telegram
+![Telegram](images/Telegram.png)

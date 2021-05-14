@@ -20,6 +20,10 @@
 ![Allure](images/Allure2.png)
 ![Allure](images/Allure3.png)
 
+### Allure report
+### Launches
+![TestOps launches](images/AllureTestOps.png)
+
 ### Video
 ![Video](images/Video.gif)
 

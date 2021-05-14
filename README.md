@@ -10,6 +10,7 @@
 ![JUnit5](images/icons/JUnit5.png)
 ![Selenide](images/icons/Selenide.png)
 ![Allure_Report](images/icons/Allure_Report.png)
+![Allure_TestOps](images/icons/Icons/TestOps.svg)
 ![Jenkins](images/icons/Jenkins.png)
 ![Selenoid](images/icons/Selenoid.png)
 ![Telegram](images/icons/Telegram.png)

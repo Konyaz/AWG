@@ -20,8 +20,7 @@
 ![Allure](images/Allure2.png)
 ![Allure](images/Allure3.png)
 
-### Allure TestOps
-### Launches
+### Allure TestOps  Launches 
 ![TestOps launches](images/AllureTestOps.png)
 
 ### Video
